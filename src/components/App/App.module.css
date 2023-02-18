@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  width: 320px;
+  
+  
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
+
+.wrapper {
+  width: 300px;
+  padding: 50px;
+  box-shadow: var(--main-shadow);
+  background-color: rgb(224, 221, 221);
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    width: 500px;
+  }
+}
